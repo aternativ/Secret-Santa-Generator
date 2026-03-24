@@ -9,3 +9,5 @@ the filename "Name.txt" and the content "Name, your partner is PartnerName".
 The script automatically cleans up the text files in "partners", so make sure
 to save the data elsewhere if you don't want to lose it before running the
 script again.
+
+You may need to give the secret.sh script execution permissions with chmod +x ./secret.sh.
