@@ -6,12 +6,14 @@ fi
 
 if [ -f out.txt ]; then 
     rm out.txt
-fi 
+fi
+
+make
 ./secret
 
-if [ ! -z "$(ls -A ./partners)" ]; then 
+if [ ! -z "$(ls -A ./partners)" ]; then
     rm ./partners/*
-fi 
+fi
 
 
 nr=$(cat out.txt | wc -l)
